@@ -1,7 +1,6 @@
 package com.cashos.stockroomos.adapter
 
-import android.app.Dialog
-import android.support.v4.app.FragmentActivity
+import android.app.Activity
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +10,7 @@ import com.example.newyorkarticle.bean.ArticlesDetailsBean
 import kotlinx.android.synthetic.main.row_article_details.view.*
 
 
-class ArticleDetailsAdapter(var applicationContext: FragmentActivity?, private var articlesList: MutableList<ArticlesDetailsBean>
+class ArticleDetailsAdapter(var applicationContext: Activity?, private var articlesList: MutableList<ArticlesDetailsBean>
                          ): RecyclerView.Adapter<ArticleDetailsAdapter.ViewHolder>() {
 
 
